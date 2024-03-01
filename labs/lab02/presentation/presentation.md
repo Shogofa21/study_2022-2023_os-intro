@@ -1,3 +1,5 @@
+
+
 ---
 ## Front matter
 lang: ru-RU
@@ -12,6 +14,16 @@ date: 1 март 2024
 ## i18n babel
 babel-lang: russian
 babel-otherlangs: english
+
+## Fonts
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
+mainfontoptions: Ligatures=TeX
+romanfontoptions: Ligatures=TeX
+sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
+monofontoptions: Scale=MatchLowercase,Scale=0.9
 
 ## Formatting pdf
 toc: false
@@ -64,36 +76,36 @@ header-includes:
 
 ![ ](image/7.jpg){ #fig:003 width=70% }
 ![ ](image/8.jpg){ #fig:003 width=70% }
-![ ](image/10.jng){ #fig:003 width=70% }
+![ ](image/10.jpg){ #fig:003 width=70% }
 
 # Настройка автоматических подписей коммитов git
 - Используя введёный email, укажите Git применять его 
 при подписи коммитов:
 
-![ ](image11.jpg){ #fig:003 width=70% }
+![ ](image/11.jpg){ #fig:003 width=70% }
 
 # Настройка gh
 
 - Для начала необходимо авториз
 
-![ ](image12.jpg){ #fig:003 width=70% }
+![ ](image/12.jpg){ #fig:003 width=70% }
 
 # Сознание репозитория курса на основе шаблона
 
-![ ](image13.jpg){ #fig:003 width=70% }
+![ ](image/13.jpg){ #fig:003 width=70% }
 
 # Настройка каталога курса
 
 - Перейдите в каталог курса:
 - Удалите лишние файлы:
 
-![ ](image14.jpg){ #fig:003 width=70% }
+![ ](image/14.jpg){ #fig:003 width=70% }
 
 # Отправьте файлы на сервер:
 
-![ ](image15.jpg){ #fig:003 width=70% }
+![ ](image/15.jpg){ #fig:003 width=70% }
 
-![ ](image16.jpg){ #fig:003 width=70% }
+![ ](image/16.jpg){ #fig:003 width=70% }
 
 - git add . – для добавления всех изменённых и/или созданных файлов и/или каталогов.
 - git commit –am ‘описание коммита’ – Для сохранения всех добавленных изменений и всех изменённых файлов
