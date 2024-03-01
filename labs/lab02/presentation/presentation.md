@@ -31,11 +31,11 @@ header-includes:
 
 - Установим git:
 
-![Установим git](image/1.jng){ #fig:002 width=70% }
+![Установим git](image/1.jpg){ #fig:002 width=70% }
 
 - Установка gh
 
-![Fedora](image/3.jng){ #fig:003 width=70% }
+![Fedora](image/3.jpg){ #fig:003 width=70% }
 
 # Базовая настройка git
 
@@ -45,55 +45,55 @@ header-includes:
 - Параметр autocrlf:
 - Параметр safecrlf:
 
-![Базовая настройка git](image/4.jng){	#fig:003 width=70% }
+![Базовая настройка git](image/4.jpg){	#fig:003 width=70% }
 
 # Создайте ключи ssh
 
 - по алгоритму rsa с ключём размером 4096 бит:
 
-![ ](image/5.jng){ #fig:003 width=70% }
+![ ](image/5.jpg){ #fig:003 width=70% }
 
 - по алгоритму ed25519:
 
-![ ](image/6.jng){ #fig:003 width=70% }
+![ ](image/6.jpg){ #fig:003 width=70% }
 
 # Создайте ключи pgp и Создайте ключи pgp
 
 - Генерируем ключ
 - Выводим список ключей и копируем отпечаток приватного ключа:
 
-![ ](image/7.jng){ #fig:003 width=70% }
-![ ](image/8.jng){ #fig:003 width=70% }
+![ ](image/7.jpg){ #fig:003 width=70% }
+![ ](image/8.jpg){ #fig:003 width=70% }
 ![ ](image/10.jng){ #fig:003 width=70% }
 
 # Настройка автоматических подписей коммитов git
 - Используя введёный email, укажите Git применять его 
 при подписи коммитов:
 
-![ ](image11.jng){ #fig:003 width=70% }
+![ ](image11.jpg){ #fig:003 width=70% }
 
 # Настройка gh
 
 - Для начала необходимо авториз
 
-![ ](image12.jng){ #fig:003 width=70% }
+![ ](image12.jpg){ #fig:003 width=70% }
 
 # Сознание репозитория курса на основе шаблона
 
-![ ](image13.jng){ #fig:003 width=70% }
+![ ](image13.jpg){ #fig:003 width=70% }
 
 # Настройка каталога курса
 
 - Перейдите в каталог курса:
 - Удалите лишние файлы:
 
-![ ](image14.jng){ #fig:003 width=70% }
+![ ](image14.jpg){ #fig:003 width=70% }
 
 # Отправьте файлы на сервер:
 
-![ ](image15.jng){ #fig:003 width=70% }
+![ ](image15.jpg){ #fig:003 width=70% }
 
-![ ](image16.jng){ #fig:003 width=70% }
+![ ](image16.jpg){ #fig:003 width=70% }
 
 - git add . – для добавления всех изменённых и/или созданных файлов и/или каталогов.
 - git commit –am ‘описание коммита’ – Для сохранения всех добавленных изменений и всех изменённых файлов
