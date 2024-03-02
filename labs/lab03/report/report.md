@@ -80,39 +80,38 @@ header-includes:
 
 Для оброботки файлов в формате Markdown скачаем Pandoc, pandoc-crossref
 
-![pandoc v3.1.3](image/2.jpg){#fig:001 width=70%}
+![pandoc v3.1.3](image/2.jpg){#fig:002 width=70%}
 
-![cкачать pandoc v3.1.3](image/3.jpg){#fig:001 width=70%}
+![cкачать pandoc v3.1.3](image/3.jpg){#fig:003 width=70%}
 
 - следующие шагом устанавлеваем pandoc
 
 - команды для установки:
  - sudo dnf install pandoc
 
-![insallition pandoc](image/1.jpg){#fig:001 width=70%}
+![insallition pandoc](image/1.jpg){#fig:004 width=70%}
 
  - sudo dnf install texlive-scheme-full
 
-![устанавление texlive](image/5.jpg){#fig:001 width=70%}
+![устанавление texlive](image/5.jpg){#fig:005 width=70%}
 
 ### лабораторной работы №: 1,  №: 2 в Markdown
 
 - я сделала отчёт для лаб номер 1 и 2 в Markdown , и потом изменили в формате dox, pdf , zip
 - и тоже самая сделала презентатцию в Markdown , и потом изменили в формате html , pdf
- - мы можем изменить файл Маrkdown в формате pdf,html, dox с помощью команды make или :
-   - pandoc lab_report.md -o lab_report.dox
+ - мы можем изменить файл Маrkdown в формате pdf,html, dox с помощью команды make
 
-![report md](image/6.jpg){#fig:001 width=70%}
+![report md](image/6.jpg){#fig:006 width=70%}
 
-![report md](image/7.jpg){#fig:001 width=70%}
+![ ](image/7.jpg){#fig:007 width=70%}
 
-![проверка создания фаилов](image/8.jpg){#fig:001 width=70%}
+![проверка создания фаилов](image/8.jpg){#fig:008 width=70%}
 
-![проверка создания фаилов](image/9.jpg){#fig:001 width=70%}
+![ ](image/9.jpg){#fig:009 width=70%}
 
-![report md](image/10.jpg){#fig:001 width=70%}
+![ ](image/10.jpg){#fig:0010 width=70%}
 
-![report md](image/11.jpg){#fig:001 width=70%}
+![ ](image/11.jpg){#fig:0011 width=70%}
 
 # Выводы
 
