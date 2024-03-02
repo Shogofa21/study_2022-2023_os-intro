@@ -1,5 +1,3 @@
-
-
 ---
 ## Front matter
 lang: ru-RU
